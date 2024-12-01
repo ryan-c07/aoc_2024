@@ -9,8 +9,7 @@ Welcome to my solutions for [Advent of Code 2024](https://adventofcode.com/2024)
 | Day | Challenge Title          | Language(s) Used | Status     | Link                                |
 |-----|--------------------------|------------------|------------|-------------------------------------|
 | 01  | Historian Hysteria       | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/1 |
-| 02  | TBD                      | Python/Java/...  | ❌❌❌❌ |
-| ... | ...                      | ...              | ...     |
+| 02  | TBD                      | TBD              | ❌❌❌❌ | https://adventofcode.com/2024/day/2 |
 
 ---
 
@@ -28,6 +27,12 @@ Welcome to my solutions for [Advent of Code 2024](https://adventofcode.com/2024)
 1. Clone this repository:
    ```bash
    git clone https://github.com/ryan-c07/aoc_2024.git
+   
+2. Navigate to the folder:
+   ```bash
    cd aoc_2024/src
-   javac Solution.java
-   java Solution
+   
+3. Execute the solution ( specific day ):
+   ```bash
+   javac Day01.java
+   java Day01
