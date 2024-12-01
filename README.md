@@ -27,5 +27,7 @@ Welcome to my solutions for [Advent of Code 2024](https://adventofcode.com/2024)
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<username>/advent-of-code-2024.git
-   cd advent-of-code-2024
+   git clone https://github.com/ryan-c07/aoc_2024.git
+   cd aoc_2024/src
+   javac Solution.java
+   java Solution
