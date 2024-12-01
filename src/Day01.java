@@ -6,7 +6,7 @@ import java.util.Collections;
 
 public class Day01 {
     public static void main(String[] args) {
-        ArrayList<String> fileData = getFileData("Day01Input.txt");
+        ArrayList<String> fileData = getFileData("inputs/Day01Input.txt");
         partOne(fileData);
         partTwo(fileData);
         partTwoAlternate(fileData);
