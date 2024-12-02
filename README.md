@@ -6,10 +6,11 @@ Welcome to my solutions for [Advent of Code 2024](https://adventofcode.com/2024)
 
 ## 📅 Daily Challenges
 
-| Day | Challenge Title          | Language(s) Used | Status     | Link                                |
-|-----|--------------------------|------------------|------------|-------------------------------------|
-| 01  | Historian Hysteria       | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/1 |
-| 02  | TBD                      | TBD              | ❌❌❌❌ | https://adventofcode.com/2024/day/2 |
+| Day | Challenge Title    | Language(s) Used | Status    | Link                                |
+|-----|--------------------|------------------|-----------|-------------------------------------|
+| 01  | Historian Hysteria | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/1 |
+| 02  | Red-Nosed Reports  | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/2 |
+| 03  | TBD                | TBD              | ❌❌❌❌ | https://adventofcode.com/2024/day/3 |
 
 ---
 
