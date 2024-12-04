@@ -38,38 +38,83 @@ public class Day04 {
         int count = 0;
         for (int row = 0; row < data.length; row++){
             for (int col = 0; col < data[0].length; col++){
+                
                 // bottom right, row + 1, col + 1
-                if (row + 3 < data.length && col + 3 < data[0].length && data[row][col].equals("X") && data[row+1][col+1].equals("M") && data[row+2][col+2].equals("A") && data[row+3][col+3].equals("S")){
+                if (row + 3 < data.length 
+                        && col + 3 < data[0].length 
+                        && data[row][col].equals("X") 
+                        && data[row+1][col+1].equals("M") 
+                        && data[row+2][col+2].equals("A") 
+                        && data[row+3][col+3].equals("S")){
                     count++;
                 }
+                
                 // down, row + 1
-                if (row + 3 < data.length && data[row][col].equals("X") && data[row+1][col].equals("M") && data[row+2][col].equals("A") && data[row+3][col].equals("S")){
+                if (row + 3 < data.length 
+                        && data[row][col].equals("X") 
+                        && data[row+1][col].equals("M") 
+                        && data[row+2][col].equals("A") 
+                        && data[row+3][col].equals("S")){
                     count++;
                 }
+                
                 // bottom left, row + 1, col - 1
-                if (row + 3 < data.length && col - 3 >= 0 && data[row][col].equals("X") && data[row+1][col-1].equals("M") && data[row+2][col-2].equals("A") && data[row+3][col-3].equals("S")){
+                if (row + 3 < data.length 
+                        && col - 3 >= 0 
+                        && data[row][col].equals("X")
+                        && data[row+1][col-1].equals("M") 
+                        && data[row+2][col-2].equals("A") 
+                        && data[row+3][col-3].equals("S")){
                     count++;
                 }
+                
                 // right, col + 1
-                if (col + 3 < data[0].length && data[row][col].equals("X") && data[row][col+1].equals("M") && data[row][col+2].equals("A") && data[row][col+3].equals("S")){
+                if (col + 3 < data[0].length 
+                        && data[row][col].equals("X") 
+                        && data[row][col+1].equals("M") 
+                        && data[row][col+2].equals("A") 
+                        && data[row][col+3].equals("S")){
                     count++;
                 }
+                
                 // left, col - 1
-                if (col - 3 >= 0 && data[row][col].equals("X") && data[row][col-1].equals("M") && data[row][col-2].equals("A") && data[row][col-3].equals("S")){
+                if (col - 3 >= 0 
+                        && data[row][col].equals("X") 
+                        && data[row][col-1].equals("M") 
+                        && data[row][col-2].equals("A") 
+                        && data[row][col-3].equals("S")){
                     count++;
                 }
+                
                 // top left, row - 1, col - 1
-                if (row - 3 >= 0 && col - 3 >= 0 && data[row][col].equals("X") && data[row-1][col-1].equals("M") && data[row-2][col-2].equals("A") && data[row-3][col-3].equals("S")){
+                if (row - 3 >= 0 
+                        && col - 3 >= 0 
+                        && data[row][col].equals("X")
+                        && data[row-1][col-1].equals("M")
+                        && data[row-2][col-2].equals("A") 
+                        && data[row-3][col-3].equals("S")){
                     count++;
                 }
+                
                 // top, row - 1
-                if (row - 3 >= 0 && data[row][col].equals("X") && data[row-1][col].equals("M") && data[row-2][col].equals("A") && data[row-3][col].equals("S")){
+                if (row - 3 >= 0 
+                        && data[row][col].equals("X") 
+                        && data[row-1][col].equals("M") 
+                        && data[row-2][col].equals("A") 
+                        && data[row-3][col].equals("S")){
                     count++;
                 }
+                
                 // top right, row - 1, col + 1
-                if (row - 3 >= 0 && col + 3 < data[0].length && data[row][col].equals("X") && data[row-1][col+1].equals("M") && data[row-2][col+2].equals("A") && data[row-3][col+3].equals("S")){
+                if (row - 3 >= 0 
+                        && col + 3 < data[0].length 
+                        && data[row][col].equals("X") 
+                        && data[row-1][col+1].equals("M") 
+                        && data[row-2][col+2].equals("A") 
+                        && data[row-3][col+3].equals("S")){
                     count++;
                 }
+                
             }
         }
         System.out.println(count);
@@ -81,6 +126,7 @@ public class Day04 {
         for (int row = 0; row < data.length; row++){
             for (int col = 0; col < data[0].length; col++){
                 int count = 0;
+                
                 // bottom right, row + 1, col + 1
                 /*
                 * M__
@@ -97,6 +143,7 @@ public class Day04 {
                         && data[row+1][col+1].equals("S")){
                     count++;
                 }
+                
                 // bottom left, row + 1, col - 1
                 /*
                  * __M
