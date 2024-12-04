@@ -11,7 +11,8 @@ Welcome to my solutions for [Advent of Code 2024](https://adventofcode.com/2024)
 | 01  | Historian Hysteria | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/1 |
 | 02  | Red-Nosed Reports  | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/2 |
 | 03  | Mull It Over       | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/3 |
-| 04  | TBD                | Java             | ❌❌❌❌ | https://adventofcode.com/2024/day/4 |
+| 04  | Ceres Search       | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/4 |
+| 05  | TBD                | Java             | ❌❌❌❌ | https://adventofcode.com/2024/day/5 |
 
 ---
 
