@@ -122,16 +122,15 @@ public class Day06 {
 
 
     public static void partTwo(String[][] data) {
-        // data will track the looping/nonlooping walls, and the algorithm will be run on changingArr
+        // data will track the looping/non-looping walls, and the algorithm will be run on changingArr
         String[][] changingArr = new String[data.length][data[0].length];
-        for (int i = 0; i < data.length; i++) {
-            System.arraycopy(data[i], 0, changingArr[i], 0, data[i].length);
-        }
-
         int row = 0;
         int col = 0;
+        int totalLoops = 0;
         boolean loopEnded;
-        String direction = "up";
+        String direction;
+
+        // find starting point
         for (int r = 0; r < data.length; r++) {
             for (int c = 0; c < data[0].length; c++) {
                 if (data[r][c].equals("^")){
@@ -142,18 +141,13 @@ public class Day06 {
         }
         int originalRow = row;
         int originalCol = col;
-        int totalLoops = 0;
 
-        String[][] originalData = new String[data.length][data[0].length];
-        for (int i = 0; i < data.length; i++) {
-            System.arraycopy(data[i], 0, originalData[i], 0, data[i].length);
-        }
-
+        // copy over data's walls for changingArr
         for (int dataRow = 0; dataRow < data.length; dataRow++){
             for (int dataCol = 0; dataCol < data[0].length; dataCol++) {
                 if (data[dataRow][dataCol].equals("X")) {
                     for (int i = 0; i < data.length; i++) {
-                        System.arraycopy(originalData[i], 0, changingArr[i], 0, data[i].length);
+                        System.arraycopy(data[i], 0, changingArr[i], 0, data[i].length);
                     }
 
                     row = originalRow;
@@ -161,8 +155,10 @@ public class Day06 {
                     direction = "up";
                     loopEnded = false;
 
+                    // assign the wall
                     changingArr[dataRow][dataCol] = "#";
 
+                    // reset the paths
                     for (int r = 0; r < changingArr.length; r++) {
                         for (int c = 0; c < changingArr[0].length; c++) {
                             if (changingArr[r][c].equals("X")) {
@@ -171,9 +167,9 @@ public class Day06 {
                         }
                     }
 
-                    int hits = 0;
-                    int iterations = 0;
-                    while (iterations < 10000) {
+
+                    int iterations = 0; // indicates # of times it has looped for
+                    while (iterations < 10000) { // idk bruteforce
                         if (direction.equals("up")) {
                             if (row - 1 < 0 || changingArr[row - 1][col].equals("_")) {
                                 loopEnded = true;
@@ -182,7 +178,6 @@ public class Day06 {
                                 row--;
                             } else {
                                 direction = "right";
-                                hits++;
                             }
                         }
                         else if (direction.equals("right")) {
@@ -193,7 +188,6 @@ public class Day06 {
                                 col++;
                             } else {
                                 direction = "down";
-                                hits++;
                             }
                         }
                         else if (direction.equals("down")) {
@@ -204,7 +198,6 @@ public class Day06 {
                                 row++;
                             } else {
                                 direction = "left";
-                                hits++;
                             }
                         }
                         else if (direction.equals("left")) {
@@ -215,16 +208,12 @@ public class Day06 {
                                 col--;
                             } else {
                                 direction = "up";
-                                hits++;
                             }
                         }
                         iterations++;
                     }
-
                     changingArr[originalRow][originalCol] = "^";
-                    if (hits > 4) {
-                        data[dataRow][dataCol] = "L";
-                    }
+                    data[dataRow][dataCol] = "L";
                     if (loopEnded) {
                         data[dataRow][dataCol] = "N";
                     }
