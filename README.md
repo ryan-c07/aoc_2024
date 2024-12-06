@@ -13,7 +13,9 @@ Welcome to my solutions for [Advent of Code 2024](https://adventofcode.com/2024)
 | 03  | Mull It Over       | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/3 |
 | 04  | Ceres Search       | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/4 |
 | 05  | Print Queue        | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/5 |
-| 06  | TBD                | Java             | ❌❌❌❌ | https://adventofcode.com/2024/day/6 |
+| 06  | Guard Gallivant    | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/6 |
+| 07  | TBD                | Java             | ❌❌❌❌ | https://adventofcode.com/2024/day/7 |
+
 
 ---
 
