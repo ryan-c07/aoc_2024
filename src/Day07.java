@@ -7,8 +7,8 @@ import java.util.Scanner;
 public class Day07 {
     public static void main(String[] args) {
         ArrayList<String> fileData = getFileData("inputs/Day07Input.txt");
-//        System.out.println(fileData);
-//        partOne(fileData);
+        System.out.println(fileData);
+        partOne(fileData);
         partTwo(fileData);
     }
 
