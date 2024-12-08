@@ -152,7 +152,6 @@ public class Day08 {
         }
         int count = 0;
         for (String[] row : unique) {
-            System.out.println(Arrays.toString(row));
             for (String element : row) {
                 if (element.equals("#")){
                     count++;
