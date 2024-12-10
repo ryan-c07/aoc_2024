@@ -6,27 +6,12 @@ import java.util.Collections;
 
 public class StarterCode {
     public static void main(String[] args) {
-        ArrayList<String> fileData = getFileData("inputs/Day**Input.txt");
+        ArrayList<String> fileData = StarterMethods.getFileData("inputs/Day**Input.txt");
         partOne(fileData);
         partTwo(fileData);
     }
 
-    public static ArrayList<String> getFileData(String fileName) {
-        ArrayList<String> fileData = new ArrayList<String>();
-        try {
-            File f = new File(fileName);
-            Scanner s = new Scanner(f);
-            while (s.hasNextLine()) {
-                String line = s.nextLine();
-                if (!line.equals(""))
-                    fileData.add(line);
-            }
-            return fileData;
-        }
-        catch (FileNotFoundException e) {
-            return fileData;
-        }
-    }
+
     public static void partOne(ArrayList<String> data) {
         /*
             @TO BE IMPLEMENTED
