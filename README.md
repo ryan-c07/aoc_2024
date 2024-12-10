@@ -17,7 +17,9 @@ Welcome to my solutions for [Advent of Code 2024](https://adventofcode.com/2024)
 | 07  | Bridge Repair         | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/7  |
 | 08  | Resonant Collinearity | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/8  |
 | 09  | Disk Fragmenter       | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/9  |
-| 09  | TBD                   | Java             | ❌❌❌❌ | https://adventofcode.com/2024/day/10 |
+| 10  | Hoof It               | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/10 |
+| 11  | TBD                   | Java             | ❌❌❌❌ | https://adventofcode.com/2024/day/11 |
+
 
 
 
