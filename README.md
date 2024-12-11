@@ -18,7 +18,7 @@ Welcome to my solutions for [Advent of Code 2024](https://adventofcode.com/2024)
 | 08  | Resonant Collinearity  | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/8  |
 | 09  | Disk Fragmenter        | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/9  |
 | 10  | Hoof It                | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/10 |
-| 11  | Plutonian Pebbles      | Java             | ✅✅❌❌ | https://adventofcode.com/2024/day/11 |
+| 11  | Plutonian Pebbles      | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/11 |
 | 12  | TBD                    | Java             | ❌❌❌❌ | https://adventofcode.com/2024/day/12 |
 
 
