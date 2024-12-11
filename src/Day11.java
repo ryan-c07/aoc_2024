@@ -1,13 +1,10 @@
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 
 public class Day11 {
     public static void main(String[] args) {
-        ArrayList<String> fileData = StarterMethods.getFileData("inputs/Day11Input.txt");
+        ArrayList<String> fileData = new ArrayList<>(Arrays.asList(StarterMethods.getFileData("inputs/Day11Input.txt").get(0).split("\\s+")));
         ArrayList<Long> fileDataLong = new ArrayList<>();
         for (String str : fileData) {
             fileDataLong.add(Long.parseLong(str));
