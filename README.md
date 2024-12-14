@@ -6,21 +6,23 @@ Welcome to my solutions for [Advent of Code 2024](https://adventofcode.com/2024)
 
 ## 📅 Daily Challenges
 
-| Day | Challenge Title        | Language(s) Used | Status    | Link                                 |
-|-----|------------------------|------------------|-----------|--------------------------------------|
-| 01  | Historian Hysteria     | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/1  |
-| 02  | Red-Nosed Reports      | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/2  |
-| 03  | Mull It Over           | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/3  |
-| 04  | Ceres Search           | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/4  |
-| 05  | Print Queue            | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/5  |
-| 06  | Guard Gallivant        | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/6  |
-| 07  | Bridge Repair          | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/7  |
-| 08  | Resonant Collinearity  | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/8  |
-| 09  | Disk Fragmenter        | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/9  |
-| 10  | Hoof It                | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/10 |
-| 11  | Plutonian Pebbles      | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/11 |
-| 12  | Garden Groups          | Java             | ✅✅❌❌ | https://adventofcode.com/2024/day/12 |
-| 13  | TBD                    | Java             | ❌❌❌❌ | https://adventofcode.com/2024/day/13 |
+| Day | Challenge Title       | Language(s) Used | Status    | Link                                 |
+|-----|-----------------------|------------------|-----------|--------------------------------------|
+| 01  | Historian Hysteria    | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/1  |
+| 02  | Red-Nosed Reports     | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/2  |
+| 03  | Mull It Over          | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/3  |
+| 04  | Ceres Search          | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/4  |
+| 05  | Print Queue           | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/5  |
+| 06  | Guard Gallivant       | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/6  |
+| 07  | Bridge Repair         | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/7  |
+| 08  | Resonant Collinearity | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/8  |
+| 09  | Disk Fragmenter       | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/9  |
+| 10  | Hoof It               | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/10 |
+| 11  | Plutonian Pebbles     | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/11 |
+| 12  | Garden Groups         | Java             | ✅✅❌❌ | https://adventofcode.com/2024/day/12 |
+| 13  | Claw Contraption      | Java             | ❌❌❌❌ | https://adventofcode.com/2024/day/13 |
+| 14  | TBD                   | Java             | ❌❌❌❌ | https://adventofcode.com/2024/day/14 |
+
 
 
 
