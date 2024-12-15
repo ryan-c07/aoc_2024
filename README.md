@@ -21,7 +21,9 @@ Welcome to my solutions for [Advent of Code 2024](https://adventofcode.com/2024)
 | 11  | Plutonian Pebbles     | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/11 |
 | 12  | Garden Groups         | Java             | ✅✅❌❌ | https://adventofcode.com/2024/day/12 |
 | 13  | Claw Contraption      | Java             | ❌❌❌❌ | https://adventofcode.com/2024/day/13 |
-| 14  | TBD                   | Java             | ❌❌❌❌ | https://adventofcode.com/2024/day/14 |
+| 14  | Restroom Redoubt      | Java             | ❌❌❌❌ | https://adventofcode.com/2024/day/14 |
+| 15  | TBD                   | Java             | ❌❌❌❌ | https://adventofcode.com/2024/day/15 |
+
 
 
 
