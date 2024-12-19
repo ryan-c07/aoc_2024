@@ -20,11 +20,14 @@ Welcome to my solutions for [Advent of Code 2024](https://adventofcode.com/2024)
 | 10  | Hoof It               | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/10 |
 | 11  | Plutonian Pebbles     | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/11 |
 | 12  | Garden Groups         | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/12 |
-| 13  | Claw Contraption      | Java             | ❌❌❌❌ | https://adventofcode.com/2024/day/13 |
+| 13  | Claw Contraption      | Java             | ✅✅✅✅ | https://adventofcode.com/2024/day/13 |
 | 14  | Restroom Redoubt      | Java             | ❌❌❌❌ | https://adventofcode.com/2024/day/14 |
 | 15  | Warehouse Woes        | Java             | ❌❌❌❌ | https://adventofcode.com/2024/day/15 |
 | 16  | Reindeer Maze         | Java             | ❌❌❌❌ | https://adventofcode.com/2024/day/16 |
 | 17  | TBD                   | Java             | ❌❌❌❌ | https://adventofcode.com/2024/day/17 |
+| 18  | TBD                   | Java             | ❌❌❌❌ | https://adventofcode.com/2024/day/18 |
+| 10  | TBD                   | Java             | ❌❌❌❌ | https://adventofcode.com/2024/day/19 |
+
 
 
 
