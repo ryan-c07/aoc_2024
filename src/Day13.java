@@ -55,7 +55,7 @@ public class Day13 {
 
 
     public static void partTwo() {
-        int total = 0;
+        long total = 0;
         for (int num = 0; num < buttonA.size(); num++) {
             long X1 = Integer.parseInt(buttonA.get(num).substring(buttonA.get(num).indexOf("X+") + 2, buttonA.get(num).indexOf(",")));
             long Y1 = Integer.parseInt(buttonA.get(num).substring(buttonA.get(num).indexOf("Y+") + 2));
@@ -63,8 +63,11 @@ public class Day13 {
             long Y2 = Integer.parseInt(buttonB.get(num).substring(buttonB.get(num).indexOf("Y+") + 2));
             long prizeX = Integer.parseInt(prize.get(num).substring(prize.get(num).indexOf("X=") + 2, prize.get(num).indexOf(","))) + 10000000000000L;
             long prizeY = Integer.parseInt(prize.get(num).substring(prize.get(num).indexOf("Y=") + 2)) + 10000000000000L;
-            long pressB;
-            long pressA;
+            long pressB = (Y1 * prizeX - X1 * prizeY) / (Y1 * X2 - X1 * Y2);
+            long pressA = (prizeX - (X2 * pressB)) / X1;
+            if (((X1 * pressA) + (X2 * pressB)) == prizeX && ((Y1 * pressA) + (Y2 * pressB)) == prizeY){
+                total += pressA*3 + pressB;
+            }
         }
         System.out.println(total);
     }
